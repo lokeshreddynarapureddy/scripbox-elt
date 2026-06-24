@@ -75,4 +75,4 @@ services:
       - ./dbt:/dbt
     ports:
       - "8080:8080"
-    command: bash -c "airflow db init && airflow users create --username admin --password admin --firstname Lokesh --lastname Reddy --role Admin --email lokesh@gmail.com ; airflow webserver & airflow scheduler"
+    command: bash -c "chmod -R 777 /dbt && airflow db init && airflow users create --username admin --password admin --firstname Lokesh --lastname Reddy --role Admin --email lokesh@gmail.com ; airflow webserver & airflow scheduler"
