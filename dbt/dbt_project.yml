@@ -1,0 +1,11 @@
+name: 'scripbox'
+version: '1.0.0'
+config-version: 2
+
+profile: 'scripbox'
+
+model-paths: ["models"]
+
+models:
+  scripbox:
+    materialized: table

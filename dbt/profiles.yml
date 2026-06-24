@@ -1,0 +1,11 @@
+scripbox:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: scripbox-elt-destination_postgres-1
+      port: 5432
+      dbname: destination_db
+      user: postgres
+      password: postgres
+      schema: public
