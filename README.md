@@ -18,19 +18,19 @@ Automated data pipeline for Scripbox investor data using Python, dbt, Airflow an
 
 1. Clone the repo:
    git clone https://github.com/lokeshreddynarapureddy/scripbox-elt.git
+2. Go into the folder:
    cd scripbox-elt
 
-2. Run Docker:
-   docker-compose up -d
-   (Wait 3-5 minutes)
+3. Run Docker:
+   docker-compose up -d(Wait 3-5 minutes)
 
-3. Check all containers are running:
+4. Check all containers are running:
    docker ps
 
-4. Check Airflow logs (wait until you see "Listening at http://0.0.0.0:8080"):
+5. Check Airflow logs 
    docker logs scripbox-elt-airflow-1 -f
 
-5. Open Airflow:
+6. Open Airflow:
    http://localhost:8080
    Username: admin
    Password: admin
