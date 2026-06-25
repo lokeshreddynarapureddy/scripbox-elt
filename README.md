@@ -11,7 +11,7 @@ Automated data pipeline for Scripbox investor data using Python, dbt, Airflow an
 - Docker
 
 # Prerequisites
-- Docker Desktop installed (download from docker.com)
+- Docker Desktop installed 
 - Git installed
 
 # How to Run
